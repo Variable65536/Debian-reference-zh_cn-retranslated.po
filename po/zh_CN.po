@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Copyright (C) 2009-2024 Osamu Aoki <osamu@debian.org>
 # This file is distributed under the same license as the Debian Reference package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# forbid <forbid>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Debian Reference 2.124\n"
 "POT-Creation-Date: 2024-11-15 02:32+0000\n"
-"PO-Revision-Date: 2025-02-03 10:10+0800\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2025-02-03 14:41+0800\n"
+"Last-Translator: forbid <forbid>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Virtaal 0.7.1\n"
 
 #. type: Content of the timesnewroman entity
 #: debian-reference.en.xmlt
@@ -2838,12 +2837,12 @@ msgid ""
 "The target reader is someone who is willing to learn shell scripts but who "
 "is not ready to read all the C sources to figure out how the <ulink "
 "url=\"&gnu;\">GNU</ulink>/<ulink url=\"&linux;\">Linux</ulink> system works."
-msgstr ""
+msgstr "本书的目标读者是那些愿意学习shell脚本，但不愿意通过阅读所有C源代码来了解GNU/Linux系统工作原理的人。\n"
 
 #. type: Content of: <book><preface><para>
 #: debian-reference.en.xmlt
 msgid "For installation instructions, see:"
-msgstr ""
+msgstr "如需系统安装指导，请见"
 
 #. type: Content of: <book><preface><itemizedlist><listitem><para>
 #: debian-reference.en.xmlt
@@ -2851,6 +2850,8 @@ msgid ""
 "<ulink url=\"&debiangnulinuxinrentstablesystem;\">Debian GNU/Linux "
 "Installation Guide for current stable system</ulink>"
 msgstr ""
+"<ulink url=\"&debiangnulinuxinrentstablesystem;\">Debian GNU/Linux "
+"（稳定版）安装手册</ulink>"
 
 #. type: Content of: <book><preface><itemizedlist><listitem><para>
 #: debian-reference.en.xmlt
@@ -2858,18 +2859,20 @@ msgid ""
 "<ulink url=\"&debiangnulinuxinenttestingsystem;\">Debian GNU/Linux "
 "Installation Guide for current testing system</ulink>"
 msgstr ""
+"<ulink url=\"&debiangnulinuxinrentstablesystem;\">Debian GNU/Linux "
+"（测试版）安装手册</ulink>"
 
 #. type: Content of: <book><preface><section><title>
 #: debian-reference.en.xmlt
 msgid "Disclaimer"
-msgstr ""
+msgstr "免责声明"
 
 #. type: Content of: <book><preface><section><para>
 #: debian-reference.en.xmlt
 msgid ""
 "All warranties are disclaimed.  All trademarks are property of their "
 "respective trademark owners."
-msgstr ""
+msgstr "所有担保条款具有免责效力。所有商标均为商标持有者的财产"
 
 #. type: Content of: <book><preface><section><para>
 #: debian-reference.en.xmlt
@@ -2879,6 +2882,8 @@ msgid ""
 "literal> version of the Debian system was used as the basis for writing "
 "this, some contents may be already outdated by the time you read this."
 msgstr ""
+"Debian 系统本身一直在不断变化。这意味着其文档很难保持最新和准确。即使在撰写时使用的已经是 Debian "
+"最新测试版本，但在你阅读这份文档时，内容可能已经过时。"
 
 #. type: Content of: <book><preface><section><para>
 #: debian-reference.en.xmlt
@@ -2888,11 +2893,13 @@ msgid ""
 "take responsibility for consequences of errors, omissions or ambiguity in "
 "this document."
 msgstr ""
+"请将此文档仅作为参考文档使用。它不能取代任何更权威的指南。作者及贡献者不对由本文档中错误、遗漏或模糊导致的后果负责。请注意，这些内容可能已经过时，建议查"
+"阅最新版本的 Debian 相关文档以获取最新信息。"
 
 #. type: Content of: <book><preface><section><title>
 #: debian-reference.en.xmlt
 msgid "What is Debian"
-msgstr ""
+msgstr "Debian简介"
 
 #. type: Content of: <book><preface><section><para>
 #: debian-reference.en.xmlt
@@ -2901,6 +2908,8 @@ msgid ""
 "of individuals who have made common cause to create a free operating "
 "system.  It's distribution is characterized by the following."
 msgstr ""
+"<ulink "
+"url=\"&debianproject;\">Debian项目</ulink>由一群志同道合的人维护，他们以创建一个免费、开源的操作系统为共同事业。"
 
 #. type: Content of: <book><preface><section><itemizedlist><listitem><para>
 #: debian-reference.en.xmlt
@@ -2909,6 +2918,8 @@ msgid ""
 "url=\"&debiansocialcontreguidelinesdfsg;\">Debian Social Contract and Debian "
 "Free Software Guidelines (DFSG)</ulink>"
 msgstr ""
+"承诺软件开源：<ulink url=\"&debiansocialcontreguidelinesdfsg;\">Debian社群契约（DSC）和Debia"
+"n自由软件指导方针（DFSG）"
 
 #. type: Content of: <book><preface><section><itemizedlist><listitem><para>
 #: debian-reference.en.xmlt
@@ -2916,24 +2927,26 @@ msgid ""
 "Internet based distributed unpaid volunteer effort: <ulink "
 "url=\"&httpswwwdebianorg;\">https://www.debian.org</ulink>"
 msgstr ""
+"没有利益驱动，贡献者的成果基于互联网分发：<ulink "
+"url=\"&httpswwwdebianorg;\">https://www.debian.org</ulink>"
 
 #. type: Content of: <book><preface><section><itemizedlist><listitem><para>
 #: debian-reference.en.xmlt
 msgid "Large number of pre-compiled high quality software packages"
-msgstr ""
+msgstr "大量高质量预编译软件包"
 
 #. type: Content of: <book><preface><section><itemizedlist><listitem><para>
 #: debian-reference.en.xmlt
 msgid ""
 "Focus on stability and security with easy access to the security updates"
-msgstr ""
+msgstr "注重稳定与安全：通过及时推送安全更新使系统稳定、安全"
 
 #. type: Content of: <book><preface><section><itemizedlist><listitem><para>
 #: debian-reference.en.xmlt
 msgid ""
 "Focus on smooth upgrade to the latest software packages in the "
 "<literal>testing</literal> archives"
-msgstr ""
+msgstr "注重更顺利的从<literal>testing</literal>源仓库升级到最新的软件包"
 
 #. type: Content of: <book><preface><section><itemizedlist><listitem><para>
 #: debian-reference.en.xmlt
@@ -2965,58 +2978,79 @@ msgid ""
 "software projects.  Debian integrates this diversity of Free Software into "
 "one system."
 msgstr ""
+"Debian系统中的开源软件来自:<ulink url=\"&gnu;\">GNU</ulink>, <ulink "
+"url=\"&linux;\">Linux</ulink>, <ulink url=\"&bsd;\">BSD</ulink>, <ulink "
+"url=\"&x;\">X</ulink>, <ulink url=\"&isc;\">ISC</ulink>, <ulink "
+"url=\"&apache;\">Apache</ulink>, <ulink "
+"url=\"&ghostscript;\">Ghostscript</ulink>, <ulink "
+"url=\"&commonunixprintingsystem;\">Common Unix Printing System </ulink>, "
+"<ulink url=\"&samba;\">Samba</ulink>, <ulink url=\"&gnome;\">GNOME</ulink>, "
+"<ulink url=\"&kde;\">KDE</ulink>, <ulink url=\"&mozilla;\">Mozilla</ulink>, "
+"<ulink url=\"&libreoffice;\">LibreOffice</ulink>, <ulink "
+"url=\"&vim;\">Vim</ulink>, <ulink url=\"&tex;\">TeX</ulink>, <ulink "
+"url=\"&latex;\">LaTeX</ulink>, <ulink url=\"&docbook;\">DocBook</ulink>, <ulink "
+"url=\"&perl;\">Perl</ulink>, <ulink url=\"&python;\">Python</ulink>, <ulink "
+"url=\"&tcl;\">Tcl</ulink>, <ulink url=\"&java;\">Java</ulink>, <ulink "
+"url=\"&ruby;\">Ruby</ulink>, <ulink url=\"&php;\">PHP</ulink>, <ulink "
+"url=\"&berkeleydb;\">Berkeley DB</ulink>, <ulink "
+"url=\"&mariadb;\">MariaDB</ulink>, <ulink "
+"url=\"&postgresql;\">PostgreSQL</ulink>, <ulink url=\"&sqlite;\">SQLite</ulink>, "
+"<ulink url=\"&exim;\">Exim</ulink>, <ulink url=\"&postfix;\">Postfix</ulink>, "
+"<ulink url=\"&mutt;\">Mutt</ulink>, <ulink url=\"&freebsd;\">FreeBSD</ulink>, "
+"<ulink url=\"&openbsd;\">OpenBSD</ulink>, <ulink url=\"&planj;\">Plan 9</ulink> "
+"以及更多独立开源项目，Debian将上述各种各样的开源项目集成到一个系统中"
 
 #. type: Content of: <book><preface><section><title>
 #: debian-reference.en.xmlt
 msgid "About this document"
-msgstr ""
+msgstr "关于本文档"
 
 #. type: Content of: <book><preface><section><section><title>
 #: debian-reference.en.xmlt
 msgid "Guiding rules"
-msgstr ""
+msgstr "本文档遵循的规则"
 
 #. type: Content of: <book><preface><section><section><para>
 #: debian-reference.en.xmlt
 msgid "Following guiding rules are followed while compiling this document."
-msgstr ""
+msgstr "在编写本文档时，遵循以下指导原则："
 
 #. type: Content of: <book><preface><section><section><itemizedlist><listitem><para>
 #: debian-reference.en.xmlt
 msgid ""
 "Provide overview and skip corner cases. (<emphasis role=\"strong\">Big "
 "Picture</emphasis>)"
-msgstr ""
+msgstr "提供整体概述，不详细探讨特殊案例。（<emphasis role=\"strong\">Big Picture</emphasis>原则）"
 
 #. type: Content of: <book><preface><section><section><itemizedlist><listitem><para>
 #: debian-reference.en.xmlt
 msgid "Keep It Short and Simple. (<emphasis role=\"strong\">KISS</emphasis>)"
-msgstr ""
+msgstr "保持内容简短、易懂。（<emphasis role=\"strong\">KISS</emphasis>原则）"
 
 #. type: Content of: <book><preface><section><section><itemizedlist><listitem><para>
 #: debian-reference.en.xmlt
 msgid ""
 "Do not reinvent the wheel. (Use pointers to <emphasis role=\"strong\">the "
 "existing references</emphasis>)"
-msgstr ""
+msgstr "不重复造轮子。（使用<emphasis role=\"strong\">现有参考资料</emphasis>并指明出处)"
 
 #. type: Content of: <book><preface><section><section><itemizedlist><listitem><para>
 #: debian-reference.en.xmlt
 msgid ""
 "Focus on non-GUI tools and consoles. (Use <emphasis role=\"strong\">shell "
 "examples</emphasis>)"
-msgstr ""
+msgstr "注重非图形用户界面工具与控制台（使用shell示例）"
 
 #. type: Content of: <book><preface><section><section><itemizedlist><listitem><para>
 #: debian-reference.en.xmlt
 msgid "Be objective. (Use <ulink url=\"&popcon;\">popcon</ulink> etc.)"
-msgstr ""
+msgstr "保持客观（例如使用<ulink url=\"&popcon;\">popcon</ulink> 等）"
 
 #. type: Content of: <book><preface><section><section><tip><para>
 #: debian-reference.en.xmlt
 msgid ""
 "I tried to elucidate hierarchical aspects and lower levels of the system."
-msgstr ""
+msgstr "我尽力解释清楚系统的层次结构及其较低级别的特性。"
 
 #. type: Content of: <book><preface><section><section><title>
 #: debian-reference.en.xmlt
