@@ -2,13 +2,14 @@
 # Copyright (C) YEAR Copyright (C) 2009-2024 Osamu Aoki <osamu@debian.org>
 # This file is distributed under the same license as the Debian Reference package.
 # forbid <forbid>, 2025.
+# forbid <forbid>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Debian Reference 2.124\n"
 "POT-Creation-Date: 2024-11-15 02:32+0000\n"
-"PO-Revision-Date: 2025-02-03 14:41+0800\n"
+"PO-Revision-Date: 2025-02-03 14:48+0800\n"
 "Last-Translator: forbid <forbid>\n"
-"Language-Team: \n"
+"Language-Team: Wang Weibang and other contributor\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3044,7 +3045,7 @@ msgstr "注重非图形用户界面工具与控制台（使用shell示例）"
 #. type: Content of: <book><preface><section><section><itemizedlist><listitem><para>
 #: debian-reference.en.xmlt
 msgid "Be objective. (Use <ulink url=\"&popcon;\">popcon</ulink> etc.)"
-msgstr "保持客观（例如使用<ulink url=\"&popcon;\">popcon</ulink> 等）"
+msgstr "保持客观（例如使用<ulink url=\"&popcon;\">popcon软件包流行度调查工具</ulink> 等）"
 
 #. type: Content of: <book><preface><section><section><tip><para>
 #: debian-reference.en.xmlt
